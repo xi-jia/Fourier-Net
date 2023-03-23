@@ -12,10 +12,13 @@ If you find the code helpful, please consider citing our work:
   year={2022}
 }
 ```
+## Acknowledgements
+
+We would like to acknowledge the [IC-Net](https://github.com/zhangjun001/ICNet), [SYM-Net,](https://github.com/cwmok/Fast-Symmetric-Diffeomorphic-Image-Registration-with-Convolutional-Neural-Networks) and [TransMorph](https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration) projects, from which we have adopted some of the code used in our work.
 
 ## Updating
 - [x] Update 2D Fourier-Net pre-trained models. Nov 29 2022.
-- [ ] Update 2D Fourier-Net training code.
-- [ ] Update 2D Fourier-Net-Diff training code and pre-trained models.
+- [x] Update 2D Fourier-Net training code. Mar 23 2023.
+- [x] Update 2D Fourier-Net-Diff training code and pre-trained models. Mar 23 2023.
 - [ ] Update 3D Fourier-Net training code and pre-trained models.
 - [ ] Update 3D Fourier-Net-Diff training code and pre-trained models.
