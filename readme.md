@@ -12,7 +12,7 @@ If you find the code helpful, please consider citing our work:
   year={2022}
 }
 ```
-## Acknowledgements
+## Acknowledgments
 
 We would like to acknowledge the [IC-Net](https://github.com/zhangjun001/ICNet), [SYM-Net,](https://github.com/cwmok/Fast-Symmetric-Diffeomorphic-Image-Registration-with-Convolutional-Neural-Networks) and [TransMorph](https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration) projects, from which we have adopted some of the code used in our work.
 
