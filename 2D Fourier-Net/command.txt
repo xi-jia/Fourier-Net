@@ -1,0 +1,2 @@
+
+CUDA_VISIBLE_DEVICES=0 python test_negJ.py --start_channel 8 --using_l2 1 --smth_labda 0.01 --lr 1e-4 --trainingset 4 --checkpoint 4020 --iteration 402001 --datapath /home/xij/Accreg/brain_2D/OASIS_AffineData/
