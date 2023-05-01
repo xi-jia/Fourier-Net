@@ -1,0 +1,51 @@
+
+cd /bask/projects/d/duanj-ai-imaging/Accreg/brain_IXI/FFT_UNet_40_EmbedFFT_Dif/
+conda activate accreg
+python compute_dsc_jet_from_quantiResult.py
+
+
+
+
+
+CUDA_VISIBLE_DEVICES=0 python train.py --start_channel 8 --using_l2 2 --smth_labda 5.0 --lr 1e-4 --trainingset 4 --checkpoint 403 --iteration 403001
+
+
+cd /bask/projects/d/duanj-ai-imaging/Accreg/brain_IXI/FFT_UNet_40_EmbedFFT_Dif/
+conda activate accreg
+CUDA_VISIBLE_DEVICES=0 python infer_saveFig.py --start_channel 16 --using_l2 2 --smth_labda 5.0 --lr 1e-4 --trainingset 4 --checkpoint 403 --iteration 403001
+
+
+
+
+cd /bask/projects/d/duanj-ai-imaging/Accreg/brain_IXI/FFT_UNet_40_EmbedFFT_Dif/
+conda activate accreg
+CUDA_VISIBLE_DEVICES=0 python infer_bilinear.py --start_channel 8 --using_l2 2 --smth_labda 5.0 --lr 1e-4 --trainingset 4 --checkpoint 403 --iteration 403001
+
+
+
+cd /bask/projects/d/duanj-ai-imaging/Accreg/brain_IXI/FFT_UNet_40_EmbedFFT_Dif/
+conda activate accreg
+CUDA_VISIBLE_DEVICES=0 python infer_bilinear.py --start_channel 16 --using_l2 2 --smth_labda 5.0 --lr 1e-4 --trainingset 4 --checkpoint 403 --iteration 403001
+
+
+
+
+cd /bask/projects/d/duanj-ai-imaging/Accreg/brain_IXI/FFT_UNet_40_EmbedFFT_Dif/
+conda activate accreg
+CUDA_VISIBLE_DEVICES=0 python infer_runtime.py --start_channel 8 --using_l2 2 --smth_labda 5.0 --lr 1e-4 --trainingset 4 --checkpoint 403 --iteration 403001
+
+
+
+cd /bask/projects/d/duanj-ai-imaging/Accreg/brain_IXI/FFT_UNet_40_EmbedFFT_Dif/
+conda activate accreg
+python infer_runtime_cpu.py --start_channel 8 --using_l2 2 --smth_labda 5.0 --lr 1e-4 --trainingset 4 --checkpoint 403 --iteration 403001
+
+
+cd /bask/projects/d/duanj-ai-imaging/Accreg/brain_IXI/FFT_UNet_40_EmbedFFT/
+conda activate accreg
+python infer_runtime.py --start_channel 8 --using_l2 2 --smth_labda 5.0 --lr 1e-4 --trainingset 4 --checkpoint 403 --iteration 403001
+
+
+conda activate accreg
+python infer_runtime.py --start_channel 16 --using_l2 2 --smth_labda 5.0 --lr 1e-4 --trainingset 4 --checkpoint 403 --iteration 403001
+
