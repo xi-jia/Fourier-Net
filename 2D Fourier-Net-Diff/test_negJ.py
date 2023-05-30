@@ -160,10 +160,10 @@ def test(modelpath):
             #print('V_xy.shape . . . ', V_xy.shape)  #([1, 3, 160, 192, 224])
             #print('warped_mov_lab.shape . . . ', warped_mov_lab.shape) #([1, 1, 160, 192, 224])
             
-            for bs_index in range(bs):
+            for bs_index in range(1):
                 dice_bs = dice(warped_mov_lab[bs_index,...].data.cpu().numpy().copy(),fix_lab[bs_index,...].data.cpu().numpy().copy())
                 Dices_35.append(dice_bs)
-                jac_det = jacobian_determinant_vxm(D_vf_xy[0, :, :, :])
+                jac_det = jacobian_determinant_vxm(D_vf_xy[bs_index, :, :, :])
                 negJ = np.sum(jac_det <= 0) / 160 / 192 * 100
                 NegJ_35.append(negJ)
 
