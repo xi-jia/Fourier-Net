@@ -1,17 +1,34 @@
 # Fourier-Net
 
-This is the official implementation of Fourier-Net: Fast Image Registration with Band-limited Deformation.
+This repository contains the official implementations of
+
+* 1 **[Fourier-Net: Fast Image Registration with Band-limited Deformation](https://doi.org/10.1609/aaai.v37i1.25182)**;
+* 2 **[Fourier-Net+: Leveraging Band-Limited Representation for Efficient 3D Medical Image Registration](https://arxiv.org/abs/2307.02997)**.
+
 
 If you find the code helpful, please consider citing our work:
 
 ```
-@article{jia2022fourier,
-  title={Fourier-Net: Fast Image Registration with Band-limited Deformation},
+@inproceedings{jia2023fourier,
+  title={Fourier-Net: Fast Image Registration with Band-Limited Deformation},
   author={Jia, Xi and Bartlett, Joseph and Chen, Wei and Song, Siyang and Zhang, Tianyang and Cheng, Xinxing and Lu, Wenqi and Qiu, Zhaowen and Duan, Jinming},
-  journal={arXiv preprint arXiv:2211.16342},
-  year={2022}
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={37},
+  number={1},
+  pages={1015--1023},
+  year={2023}
 }
 ```
+```
+@article{jia2023fourierplus,
+  title={Fourier-Net+: Leveraging Band-Limited Representation for Efficient 3D Medical Image Registration},
+  author={Jia, Xi and Thorley, Alexander and Gomez, Alberto and Lu, Wenqi and Kotecha, Dipak and Duan, Jinming},
+  journal={arXiv preprint arXiv:2307.02997},
+  year={2023}
+}
+```
+
+
 ## Updating
 - [x] Update 2D Fourier-Net pre-trained models. Nov 29 2022.
 - [x] Update 2D Fourier-Net training code. Mar 23 2023.
