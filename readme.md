@@ -37,6 +37,8 @@ If you find the code helpful, please consider citing our work:
 - [x] Update 3D Fourier-Net-Diff training code and pre-trained models. May 1 2023.
 - [x] Update 2D Fourier-Net+ model. July 6 2023.
 - [x] Update 3D Fourier-Net+ model. July 6 2023.
+- [x] Update 2D Fourier-Net+ training/testing/pre-trained model. Nov 4 2023.
+- [x] Update 3D Fourier-Net+ training/testing/pretrained model. Nov 4 2023.
 
 ## Train and Test
 
