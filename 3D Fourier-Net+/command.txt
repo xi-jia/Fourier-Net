@@ -1,0 +1,11 @@
+
+CUDA_VISIBLE_DEVICES=0 python infer_runtime.py --start_channel 16 --using_l2 2 --smth_labda 5.0 --lr 1e-4 --trainingset 4 --checkpoint 403 --iteration 403001
+CUDA_VISIBLE_DEVICES=0 python infer_runtime.py --start_channel 16 --using_l2 2 --smth_labda 5.0 --lr 1e-4 --trainingset 4 --checkpoint 403 --iteration 403001
+CUDA_VISIBLE_DEVICES=0 python infer_runtime.py --start_channel 16 --using_l2 2 --smth_labda 5.0 --lr 1e-4 --trainingset 4 --checkpoint 403 --iteration 403001
+CUDA_VISIBLE_DEVICES=0 python infer_runtime.py --start_channel 16 --using_l2 2 --smth_labda 5.0 --lr 1e-4 --trainingset 4 --checkpoint 403 --iteration 403001
+CUDA_VISIBLE_DEVICES=0 python infer_runtime.py --start_channel 16 --using_l2 2 --smth_labda 5.0 --lr 1e-4 --trainingset 4 --checkpoint 403 --iteration 403001
+CUDA_VISIBLE_DEVICES=0 python infer_runtime.py --start_channel 16 --using_l2 2 --smth_labda 5.0 --lr 1e-4 --trainingset 4 --checkpoint 403 --iteration 403001
+CUDA_VISIBLE_DEVICES=0 python infer_runtime.py --start_channel 16 --using_l2 2 --smth_labda 5.0 --lr 1e-4 --trainingset 4 --checkpoint 403 --iteration 403001
+
+
+
