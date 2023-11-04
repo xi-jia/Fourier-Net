@@ -1,11 +1,17 @@
 
-CUDA_VISIBLE_DEVICES=0 python infer_runtime.py --start_channel 16 --using_l2 2 --smth_labda 2.0 --lr 1e-4 --trainingset 4 --checkpoint 403 --iteration 403001
-CUDA_VISIBLE_DEVICES=0 python infer_runtime.py --start_channel 16 --using_l2 2 --smth_labda 2.0 --lr 1e-4 --trainingset 4 --checkpoint 403 --iteration 403001
-CUDA_VISIBLE_DEVICES=0 python infer_runtime.py --start_channel 16 --using_l2 2 --smth_labda 2.0 --lr 1e-4 --trainingset 4 --checkpoint 403 --iteration 403001
-CUDA_VISIBLE_DEVICES=0 python infer_runtime.py --start_channel 16 --using_l2 2 --smth_labda 2.0 --lr 1e-4 --trainingset 4 --checkpoint 403 --iteration 403001
-CUDA_VISIBLE_DEVICES=0 python infer_runtime.py --start_channel 16 --using_l2 2 --smth_labda 2.0 --lr 1e-4 --trainingset 4 --checkpoint 403 --iteration 403001
-CUDA_VISIBLE_DEVICES=0 python infer_runtime.py --start_channel 16 --using_l2 2 --smth_labda 2.0 --lr 1e-4 --trainingset 4 --checkpoint 403 --iteration 403001
-CUDA_VISIBLE_DEVICES=0 python infer_runtime.py --start_channel 16 --using_l2 2 --smth_labda 2.0 --lr 1e-4 --trainingset 4 --checkpoint 403 --iteration 403001
+CUDA_VISIBLE_DEVICES=-1 python testCPUTime.py --start_channel 8 --using_l2 1 --smth_labda 0.01 --lr 1e-4  --trainingset 4 --iteration 804001 --checkpoint 2010 --bs 1 --datapath /home/xij/Accreg/brain_2D/OASIS_AffineData/
 
+CUDA_VISIBLE_DEVICES=0 python testGPUTime.py --start_channel 8 --using_l2 1 --smth_labda 0.01 --lr 1e-4  --trainingset 4 --iteration 804001 --checkpoint 2010 --bs 1 --datapath /home/xij/Accreg/brain_2D/OASIS_AffineData/
+CUDA_VISIBLE_DEVICES=0 python testGPUTime.py --start_channel 8 --using_l2 1 --smth_labda 0.01 --lr 1e-4  --trainingset 4 --iteration 804001 --checkpoint 2010 --bs 1 --datapath /home/xij/Accreg/brain_2D/OASIS_AffineData/
+CUDA_VISIBLE_DEVICES=0 python testGPUTime.py --start_channel 8 --using_l2 1 --smth_labda 0.01 --lr 1e-4  --trainingset 4 --iteration 804001 --checkpoint 2010 --bs 1 --datapath /home/xij/Accreg/brain_2D/OASIS_AffineData/
+CUDA_VISIBLE_DEVICES=0 python testGPUTime.py --start_channel 8 --using_l2 1 --smth_labda 0.01 --lr 1e-4  --trainingset 4 --iteration 804001 --checkpoint 2010 --bs 1 --datapath /home/xij/Accreg/brain_2D/OASIS_AffineData/
+CUDA_VISIBLE_DEVICES=0 python testGPUTime.py --start_channel 8 --using_l2 1 --smth_labda 0.01 --lr 1e-4  --trainingset 4 --iteration 804001 --checkpoint 2010 --bs 1 --datapath /home/xij/Accreg/brain_2D/OASIS_AffineData/
 
+CUDA_VISIBLE_DEVICES=-1 python testCPUTime.py --start_channel 16 --using_l2 1 --smth_labda 0.01 --lr 1e-4  --trainingset 4 --iteration 804001 --checkpoint 2010 --bs 1 --datapath /home/xij/Accreg/brain_2D/OASIS_AffineData/
+CUDA_VISIBLE_DEVICES=-1 python testCPUTime.py --start_channel 16 --using_l2 1 --smth_labda 0.01 --lr 1e-4  --trainingset 4 --iteration 804001 --checkpoint 2010 --bs 1 --datapath /home/xij/Accreg/brain_2D/OASIS_AffineData/
+CUDA_VISIBLE_DEVICES=-1 python testCPUTime.py --start_channel 16 --using_l2 1 --smth_labda 0.01 --lr 1e-4  --trainingset 4 --iteration 804001 --checkpoint 2010 --bs 1 --datapath /home/xij/Accreg/brain_2D/OASIS_AffineData/
+CUDA_VISIBLE_DEVICES=-1 python testCPUTime.py --start_channel 16 --using_l2 1 --smth_labda 0.01 --lr 1e-4  --trainingset 4 --iteration 804001 --checkpoint 2010 --bs 1 --datapath /home/xij/Accreg/brain_2D/OASIS_AffineData/
+CUDA_VISIBLE_DEVICES=-1 python testCPUTime.py --start_channel 16 --using_l2 1 --smth_labda 0.01 --lr 1e-4  --trainingset 4 --iteration 804001 --checkpoint 2010 --bs 1 --datapath /home/xij/Accreg/brain_2D/OASIS_AffineData/
+CUDA_VISIBLE_DEVICES=-1 python testCPUTime.py --start_channel 16 --using_l2 1 --smth_labda 0.01 --lr 1e-4  --trainingset 4 --iteration 804001 --checkpoint 2010 --bs 1 --datapath /home/xij/Accreg/brain_2D/OASIS_AffineData/
+CUDA_VISIBLE_DEVICES=-1 python testCPUTime.py --start_channel 16 --using_l2 1 --smth_labda 0.01 --lr 1e-4  --trainingset 4 --iteration 804001 --checkpoint 2010 --bs 1 --datapath /home/xij/Accreg/brain_2D/OASIS_AffineData/
 
