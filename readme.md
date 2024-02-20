@@ -7,7 +7,12 @@ This repository contains the official implementations of
 
 ## News
 
-Oct 2023. Our Fourier-Net achieved overall 2nd place on [the recent Learn2Reg 2023 challenge](https://learn2reg.grand-challenge.org/Description/).
+
+**Feb 2024.** Our Fourier-Net won **2nd prize** on [the Oncoreg 2024 challenge](https://learn2reg.grand-challenge.org/oncoreg/).
+
+* Purely FourierNet with NCC Loss / MIND Loss + Dice Loss + Diffusion Smoothness.
+
+**Oct 2023.** Our Fourier-Net won **2nd prize** on [the Learn2Reg 2023 challenge](https://learn2reg.grand-challenge.org/Description/).
 
 * 1 NLST: our submitted displacement is the algorithmic average of LKU-Net and Cascaded Fourier-Net+. **Best TRE_LM!**
 * 2 ThoraxCBCT: our submitted displacement is solely from Fourier-Net. **Best TRE_LM!**
@@ -16,6 +21,7 @@ Oct 2023. Our Fourier-Net achieved overall 2nd place on [the recent Learn2Reg 20
 |------------|------------|--------|----------|-------------|--------|---------|-------------|
 | Birmingham | NLST       | 1.425  | 1.926    | 1.135       | N/A    | N/A     | 0.045       |
 | Birmingham | ThoraxCBCT | 4.0342 | 3.8522   | N/A         | 0.5691 | 56.4998 | 0.0728      |
+
 
 ## Train and Test
 
