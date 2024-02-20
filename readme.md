@@ -10,7 +10,7 @@ This repository contains the official implementations of
 
 **Feb 2024.** Our Fourier-Net won **2nd prize** on [the Oncoreg 2024 challenge](https://learn2reg.grand-challenge.org/oncoreg/).
 
-* Purely FourierNet with NCC Loss / MIND Loss + Dice Loss + Diffusion Smoothness.
+* Solely FourierNet with NCC Loss / MIND Loss + Dice Loss + Diffusion Smoothness.
 
 **Oct 2023.** Our Fourier-Net won **2nd prize** on [the Learn2Reg 2023 challenge](https://learn2reg.grand-challenge.org/Description/).
 
